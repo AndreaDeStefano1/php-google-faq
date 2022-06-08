@@ -40,7 +40,7 @@ $db = [
     
     
     
-    <ol>
+    </ol>
     <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
     
     <h3>Stabilire il paese associato al tuo account</h3>
@@ -60,27 +60,48 @@ $db = [
   ],
 ]
 ?>
-<!-- <svg class="gb_Te" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg> -->
+
 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Domande frequenti - Privacy e termini</title>
 </head>
 <body>
   <header>
-    <div class="header-top">
-    <img class="gb_Ba gbii" src="https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="">
+    <div class="header-top d-flex">
+      <div class="left">
+        <img class="gb_tc" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+        <span class="gb_3d gb_0c">Privacy e termini</span>
+      </div>
+      
+
+      <div class="right d-flex">
+        <svg focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+
+        <img  src="https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I6nTbNSP1QEG5V1TxyMX8-T-4SPAvCqVsHb8I9n=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="">
+      </div>
     </div>
     <div class="header-bot">
-      link
+      <ul>
+        <li class="ut53P"><a href="">Introduzione</a></li>
+        <li class="ut53P"><a href="">Norme sulla privacy</a></li>
+        <li class="ut53P"><a href="">Termini di servizio</a></li>
+        <li class="ut53P"><a href="">Tecnologie</a></li>
+        <li class="active ut53P"><a href="">Domande frequenti</a></li>
+      </ul>
     </div>
   </header>
+  
   <main>
     <div class='container'>
 
