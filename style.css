@@ -1,0 +1,41 @@
+.container{
+  max-width: 978px;
+  margin: 0 auto;
+}
+h2 {
+  color: #3c4043;
+  font-family: "Google Sans",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 64px 0 0 0;
+}
+a{
+  color: #3367d6;
+  text-decoration: none;
+}
+p {
+  line-height: 24px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+h3 {
+  color: #3c4043;
+  font-family: "Google Sans",sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  padding: 52px 0 0 0;
+  font-weight: 700;
+}
+ul, ol {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+li {
+    line-height: 24px;
+    padding-left: 16px;
+    
+}
