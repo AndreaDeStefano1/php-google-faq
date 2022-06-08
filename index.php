@@ -74,6 +74,7 @@ $db = [
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous'/>
   <title>Domande frequenti - Privacy e termini</title>
 </head>
 <body>
@@ -101,7 +102,7 @@ $db = [
       </ul>
     </div>
   </header>
-  
+
   <main>
     <div class='container'>
 
@@ -114,5 +115,72 @@ $db = [
     ?>
     </div>
   </main>
+
+  <footer>
+    <div class="container d-flex">
+      <div class="f-left Fq8qrb">
+        
+      
+        <ul>
+          <li><a href="">Google</a></li>
+          <li>-</li>
+          <li><a href="">Tutto su Google</a></li>
+          <li>-</li>
+          <li><a href="">Privacy</a></li>
+          <li>-</li>
+          <li><a href="">Termini</a></li>
+        </ul>
+        
+        
+      </div>
+      <div class="f-right Fq8qrb">
+        
+        <label class="" for="language"><i class="fa-solid fa-globe"></i></label>
+        <select class="" id="language" >
+          <option value="af">Afrikaans</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="ms">Bahasa Melayu</option>
+          <option value="ca">Català</option>
+          <option value="cs">Čeština</option>
+          <option value="da">Dansk</option>
+          <option value="de">Deutsch</option>
+          <option value="et">Eesti</option>
+          <option value="en">English</option>
+          <option value="en-GB">English (United Kingdom)</option>
+          <option value="es">Español</option>
+          <option value="es-419">Español (Latinoamérica)</option>
+          <option value="eu">Euskara</option>
+          <option value="fil">Filipino</option
+          ><option value="fr">Français</option>
+          <option value="fr-CA">Français (Canada)</option>
+          <option value="gl">Galego</option>
+          <option value="hr">Hrvatski</option>
+          <option value="zu">Isizulu</option>
+          <option value="is">Íslenska</option>
+          <option selected="" value="it">Italiano</option>
+          <option value="sw">Kiswahili</option>
+          <option value="lv">Latviešu</option>
+          <option value="lt">Lietuvių</option>
+          <option value="hu">Magyar</option>
+          <option value="nl">Nederlands</option>
+          <option value="no">Norsk</option>
+          <option value="pl">Polski</option>
+          <option value="pt-BR">Português (Brasil)</option>
+          <option value="pt-PT">Português (Portugal)</option>
+          <option value="ro">Română</option>
+          <option value="sk">Slovenčina</option>
+          <option value="sl">Slovenščina</option>
+          <option value="sr-Latn">Srpski</option>
+          <option value="fi">Suomi</option>
+          <option value="sv">Svenska</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="tr">Türkçe</option>
+          <option value="el">Ελληνικά</option>
+          <option value="bg">Български</option>
+        </select>
+      
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
